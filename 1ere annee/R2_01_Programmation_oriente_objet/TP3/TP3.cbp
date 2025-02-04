@@ -35,6 +35,16 @@
 		<Linker>
 			<Add option="`pkg-config gtk+-2.0 --libs`" />
 		</Linker>
+		<Unit filename="../Couleur.h" />
+		<Unit filename="../Couleur.o" />
+		<Unit filename="../Fenetre.h" />
+		<Unit filename="../Fenetre.o" />
+		<Unit filename="../Souris.h" />
+		<Unit filename="../Souris.o" />
+		<Unit filename="../TP2/Carre.h" />
+		<Unit filename="CaseACocher.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
