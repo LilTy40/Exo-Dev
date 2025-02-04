@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramme de cas d'utilisation tp1 (1)" version="4">
+  <OBJECT>
+    <ID name="Diagramme de cas d'utilisation tp1 (1)" mc="Standard.UseCaseDiagram" uid="94aaa6a7-690b-4c7f-b514-a85af8f75847"/>
+    <PID name="tp1" mc="Standard.Package" uid="3fd2bc1c-13f4-44ad-9bf3-b30a9b3104c1"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztl21v2jAQx79KFO0tATYoMNFWIclo1JRUCe3UvUEmOWhax0a2U8i3n8OTSkppxhitpr7COtv/O59/dybt81mMlSdgPKLkVK1qFVU5P2u7wwcIhBKF0qQqIp3AqUrZWItpCDiiWhJjLeEQIA5hhMYMxZocCMo0wBADETw/3Y1vOBjSYC4MqhKjB8oGa9cV9ax9zegEmEgVgmLpEaOUJsJEAsm5W4QTWIZCEozV8lm7vNrwYqsvUgzqxkG+bjvIKjyeredaQBloi70F4pPHCVAI4cqZNRMejAp66UmJ5U4FZsIc2jLG+TAbGHSIsNh9Rt33XWPgX7g/Pdex/FyOOpRiQERVnjLjqTpCmENRwZ5+a3f1ju3Y/btD6jp6x3IOKWjonnkoPcPt9Syjb7s9z73pW15O1yJJ/L0QO5eQfjEoIZI8iY4nGQZmh+uATNuTbnIRlRek7oqSAUYCQolYLrKrzLRS9wUiIWKhtllvSquGEDpBjdJJqzIs1YLGqDSsV2sl1KyjUXPUqDdrjd1ZwoiLS0KnxEFDwLkYfMEiMpbG8ty68xzyfmxi0HhCeZRlaH8p4z7CIYNMwYm42Kj3b3s2Lp5yAVnD8ueD4zeq2j9vVFmXWrTE/xNCMal+HA7ru65zTV1A45gS7R7kPTEJnwkjlGBxla23Fosu5nPH5/GkKI9Sapb+NZS1TygLQLkApYAgv6fTQRS8ENrjmZxLPUI6pSw8gJpAweNAtlgG9A01wZIioeEt2S8gtQbsGfONwzwePxjAL0oK1cNhi7b5WbQfr2iHNEz3eU3Ky59t+X0xlRNboagtrzUXmk0EjLNXZZnv6qsX+ZYjJyKPfEfIueWdscnQVKbFQan0vwFvq9CTGS72cw1nCtmb+VzwOBX3Z7veG/ko37ZXYJpdzdHvLG/Q0Y3Lrvz86ZmH5vRVlee3xrf9gapWPnF4Jxz67vXx+9XmOQv2rdc+ZX4Du86W5A==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="JsStructure"></ATT>
+      <ATT name="Name"><![CDATA[Diagramme de cas d'utilisation tp1 (1)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="tp1" mc="Standard.Package" uid="3fd2bc1c-13f4-44ad-9bf3-b30a9b3104c1"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="678c5c23-1b17-4f5d-afaf-e9955880a1b5"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

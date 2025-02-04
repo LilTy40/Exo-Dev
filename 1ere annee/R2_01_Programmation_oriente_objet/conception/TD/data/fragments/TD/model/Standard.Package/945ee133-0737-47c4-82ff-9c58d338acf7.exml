@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="td" version="4">
+  <OBJECT>
+    <ID name="td" mc="Standard.Package" uid="945ee133-0737-47c4-82ff-9c58d338acf7"/>
+    <PID name="TD" mc="Standard.Project" uid="d9772879-1660-4c35-8c85-39539350406d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[td]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="f0746c34-bbb5-4001-8753-136dc35fb186"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="7605ac54-c1cf-4575-93da-ec458200763b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

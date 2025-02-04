@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tp1" version="4">
+  <OBJECT>
+    <ID name="tp1" mc="Standard.Package" uid="3fd2bc1c-13f4-44ad-9bf3-b30a9b3104c1"/>
+    <PID name="TP1" mc="Standard.Project" uid="3c2ac3f4-2f8e-4d06-af6b-86f54bad4193"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tp1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="dc1e5cfe-670b-4b0e-8b18-a39b25970921"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Utiliser le site" mc="Standard.UseCase" uid="6509d11e-c928-4062-94e4-044b454feef0"/>
+        <COMPID name="Utilisateur" mc="Standard.Actor" uid="7952675f-fcee-4a26-9583-3f3c96d55d98"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation tp1" mc="Standard.UseCaseDiagram" uid="51d111a2-9606-4098-9dc6-d17e53f37cf5"/>
+        <COMPID name="Diagramme de cas d'utilisation tp1 (1)" mc="Standard.UseCaseDiagram" uid="94aaa6a7-690b-4c7f-b514-a85af8f75847"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
