@@ -16,8 +16,9 @@ os.chdir('F:\Repo TPs info\\TPs-Dev\\1ere annee\\R2_08_Statistiques\\Pandas')
 ###########################################
 
 
-profilsentrants=pd.read_table('ProfEntrants.csv',sep=";")
-poursuites=pd.read_table('Poursuites.csv',sep=";",encoding='windows-1252')
+#profilsentrants=pd.read_table('ProfEntrants.csv',sep=";")
+
+
 '''Vérifier que l’importation s’est correctement déroulée : 
 il ne doit pas y avoir de message d’erreur et le DataFrame profilsentrants 
 doit se trouver dans les variables de votre environnement (fenêtre variable explorer, normalement en haut à droite)
@@ -32,31 +33,30 @@ dans la fenêtre variable explorer (c’est l’un es intérêts de l’environn
 #•	Un « index » a été créé, il s’agit d’une colonne qui permet d’identifier les lignes. Tout DataFrame Pandas doit avoir un index.  En statistique, on parle de variable identificatrice (en BD, il s’agirait d’une clé primaire). Par défaut, si rien n’a été précisé au moment de l’importation, l’index correspond à une numérotation des lignes, mais il aurait été possible, au moment de la lecture du fichier texte (importation), de préciser quelle est la colonne, dans le fichier lu, qui contient les identifiant des lignes, quelle est la « variable identificatrice ».  
 # Exercice : modifier les options de read_table (ou read_csv) pour que la variable Code soit considérée comme index (variable identificatrice)
 
-
+poursuites=pd.read_table('Poursuites.csv',sep=";",encoding='windows-1252')
 
 # Importer le fichier « Resultats.csv » en utilisant comme index la colonne « num ».
 # Si vous n’avez pas changé les options dans le read_table, vous devez observer nouveau problème
 # dans le DataFrame. Corrigez-le.
 
-
+num=pd.read_table('Resultats.csv',sep=";",encoding='windows-1252')
 
 # Importer directement les trois feuilles du fichier excel « Données Etudiants anonymisées - avec poursuites détudes.xlsx » en utilisant la fonction pd.read_excel. 
 # Nom des feuilles : Profil entrant, Résultat, Poursuites d'études
 
-
+#excel=pd.read_excel('Données Etudiants anonymisées - avec poursuites détudes.xlsx')
 
 
 # QCM d'entrainement : https://elearn.univ-pau.fr/mod/quiz/view.php?id=604584
-
 
 ###############################
 # Manipulation d'un dataframe #
 ###############################
 
 # Dimensions du dataframe
-profilsentrants.shape
+'''profilsentrants.shape
 profilsentrants.shape[0]
-profilsentrants.shape[1]
+profilsentrants.shape[1]'''
 
 ##############################
 # Les individus              #
@@ -65,14 +65,19 @@ profilsentrants.shape[1]
 
 # importation du fichier ProfEntrants.csv
 profilsentrants=pd.read_table('ProfEntrants.csv',sep=";")
+
 # Num en index :
 profilsentrants = profilsentrants.set_index("Num")
 # Suppression de l’index :
 profilsentrants = profilsentrants.reset_index()
 
+'''for ind in profilsentrants.index :
+    print(ind)'''
+
 #################
 # Les variables #
 #################
+num.astype({'UE11': 'float64'}).dtypes
 
 profilsentrants.columns
 profilsentrants.dtypes
@@ -84,9 +89,10 @@ var = profilsentrants['Bac']
 ###################################
 
 # Sélection d'un individu avec loc et iloc
-profilsentrants.iloc[0,0]
+profilsentrants.iloc[0,1]
 profilsentrants.loc[140,'Bac']  
-
+num.loc['16-17','AnnS2']
+num
 # Sélection d'un individu avec at et iat
 profilsentrants.iat[0,0]                   	   
 profilsentrants.at[140,'Bac']
